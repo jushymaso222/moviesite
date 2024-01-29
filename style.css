@@ -1,0 +1,50 @@
+html, body {
+    background-color: rgb(72, 78, 88);
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Monsterrat;
+    src: url(MontserratExtrabold-qZ7Rx.otf);
+}
+
+#header {
+    background-color: rgb(56, 62, 70);
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    
+}
+
+h1 {
+    font-family: 'Monsterrat';
+    color: rgb(214, 202, 38);
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+}
+
+.button {
+    flex: 1;
+    display: inline;
+    text-align: center;
+    padding: 10px 100px 10px 100px;
+    background-color: rgba(117, 110, 48, 0.1);
+    vertical-align: top;
+    border-radius: 10px;
+    border-top: 2px solid rgb(229, 255, 0);
+    margin: 5px;
+}
+
+h2 {
+    font-family: 'Helvetica';
+    color: rgb(214, 202, 38);
+}
+
+#content {
+    background-color: rgb(160, 164, 172);
+    width: 100%;
+}
